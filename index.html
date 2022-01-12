@@ -11,78 +11,138 @@
 </head>
 
 <body>
-  <div class="xl:container m-auto">
-    <header class="bg-indigo-900">
-      <div class="">
-        <a href=""> <img src="img/logo2.jpg" alt="" class="m-auto h-20"></a>
-      </div>
-      <nav>
-        <ul class="flex bg-orange-600 justify-between	">
-          <div id="menu" class="flex px-3 mx-auto">
-            <li class="mx-20 py-4"><a href="">menu</a></li>
-            <li class="mx-20 py-4"><a href="">menu</a></li>
-            <li class="mx-20 py-4 "><a href="">menu</a></li>
-            <li class="mx-20 py-4"><a href="">menu</a></li>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Vite App</title>
+      <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+      <div class="max-w-screen-lg m-auto" >
+        
+        <header>
+          <div class="bg-[#333366]">
+              <a href="">
+                <img class="m-auto py-[15px]" src="/image/logo.jpg" alt="">
+              </a>
           </div>
-          <div class="mx-3">
-            <form action="" class="my-2">
-              <input type="text" class="p-2 h-10 w-96
-               lg:w-80" placeholder="Bạn muốn tìm gì ?">
-              <button class="bg-indigo-900 text-white p-2 hover:bg-black hover:ease-in-out duration-500 lg:30">Tìm
-                kiếm</button>
+          <div class="bg-[#cc6600] flex justify-between items-center ">
+            <ul class="flex m-[10px] pl-[30px] ">
+              <li><a class="p-[15px] text-[#fff] text-lg underline decoration-solid hover:bg-[#F8F9FA] hover:p-[12px] hover:text-[#000] " href="">Trang chủ</a></li>
+              <li><a class="p-[15px] text-[#fff] text-lg hover:bg-[#F8F9FA] hover:p-[12px] hover:text-[#000] " href="">Tuyển sinh</a></li>
+              <li><a class="p-[15px] text-[#fff] text-lg hover:bg-[#F8F9FA] hover:p-[12px] hover:text-[#000]" href="">Chương trình đào tạo</a></li>
+              <li><a class="p-[15px] text-[#fff] text-lg hover:bg-[#F8F9FA] hover:p-[12px] hover:text-[#000]" href="">Góc sinh viên</a></li>
+              <li><a class="p-[15px] text-[#fff] text-lg hover:bg-[#F8F9FA] hover:p-[12px] hover:text-[#000]" href="">Tuyển dụng</a></li>
+            </ul>
+            <form action="#" method="POST">
+              <input type="text" class="mr-[10px] p-[3px] w-[190px]">
+              <input type="submit" value="Tìm kiếm" class="bg-[#333366] text-base mr-[7px] p-[3px] w-[70px] text-[#fff]">
             </form>
           </div>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="mt-2">
-        <img src="img/Banner-AP.png" alt="" class="w-full">
+        </header>
+ 
+        <div class="mt-[10px]">
+          <a href="">
+            <img src="/image/banner.jpg" alt="" class="w-[100%] h-[100%]">
+          </a>
+        </div>
+
+        <div class=" my-5">
+              <div class="my-7 text-3xl font-bold uppercase ml-[20px]  text-[#333366]">tin tức học tập</div>
+              <div class="grid grid-cols-3 gap-[20px]">
+                <div class="border-[1px] border-[#c2c2c2]">
+                  <div class="ml-[35px] my-[15px]">
+                    <a href="">
+                      <img  src="/image/anh1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="ml-[35px] my-[20px]">
+                    <h2 class="inline-block mr-[5px] mb-[10px] text-[#ab3f00] font-bold text-xl">Vinh danh 295 sinh viên FPT Polytechnic học kì Sping 2018</h2>
+                    <span class="text-[#000] text-base inline-block mr-[10px]">Tối ngay 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ tôn vinh "Ong vàng Poly", tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập như hoat</span>
+                  </div>
+                </div>
+           
+  
+                <div class="border-[1px] border-[#c2c2c2]">
+                  <div class="ml-[35px] my-[15px]">
+                    <a href="">
+                      <img src="/image/anh2.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="ml-[35px] my-[20px]">
+                    <h2 class="mb-[10px] mr-[5px] text-[#ab3f00] font-bold text-xl">Sinh viên khối ngành kinh tế học cách "chạm" vào cảm xúc</h2>
+                    <span class="text-[#000] inline-block text-base mr-[10px]">Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh, chường trình đã thu hút sự đông đảo sinh viên Cao đẳng FPT Polytechnic tham dự. Đặc biệt các bạn sinh vien bị lôi cuốn bởi</span>
+                  </div>
+                </div>
+           
+  
+                <div class="border-[1px] border-[#c2c2c2]">
+                  <div class="ml-[35px] my-[15px]">
+                    <a href="">
+                      <img src="/image/anh3.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="ml-[35px] my-[20px]">
+                    <h2 class="mb-[10px] mr-[5px] text-[#ab3f00] font-bold text-xl">Sinh viên FPOLY trải nghiệm tực tế tại Mường Thanh Luxury</h2>
+                    <span class="text-[#000] inline-block text-base mr-[10px]">Với triết lý đào tạo "Thực học - Thực nghiệp", Cao đẳng FPT Polytechnic Đà Nẵng thường xuyên tổ chức cho sinh viên tham quan các đơn vị doanh nghiệp </span>
+                  </div>
+        </div>
+              </div>
+        </div>
+        <div class=" my-5">
+            <div class="my-7 text-3xl font-bold uppercase ml-[20px]  text-[#333366]">hoạt động sinh viên</div>
+            <div class="grid grid-cols-3 gap-[20px]">
+              <div class="border-[1px] border-[#c2c2c2]">
+                <div class="ml-[35px] my-[15px]">
+                  <a href="">
+                    <img  src="/image/anh1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="ml-[35px] my-[20px]">
+                  <h2 class="inline-block mr-[5px] mb-[10px] text-[#ab3f00] font-bold text-xl">Vinh danh 295 sinh viên FPT Polytechnic học kì Sping 2018</h2>
+                  <span class="text-[#000] text-base inline-block mr-[10px]">Tối ngay 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ tôn vinh "Ong vàng Poly", tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập như hoat</span>
+                </div>
+              </div>
+              <div class="border-[1px] border-[#c2c2c2]">
+                <div class="ml-[35px] my-[15px]">
+                  <a href="">
+                    <img src="/image/anh2.jpg" alt="">
+                  </a>
+                </div>
+                <div class="ml-[35px] my-[20px]">
+                  <h2 class="mb-[10px] mr-[5px] text-[#ab3f00] font-bold text-xl">Sinh viên khối ngành kinh tế học cách "chạm" vào cảm xúc</h2>
+                  <span class="text-[#000] inline-block text-base mr-[10px]">Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh, chường trình đã thu hút sự đông đảo sinh viên Cao đẳng FPT Polytechnic tham dự. Đặc biệt các bạn sinh vien bị lôi cuốn bởi</span>
+                </div>
+              </div>
+
+              <div class="border-[1px] border-[#c2c2c2]">
+                <div class="ml-[35px] my-[15px]">
+                  <a href="">
+                    <img src="/image/anh3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="ml-[35px] my-[20px]">
+                  <h2 class="mb-[10px] mr-[5px] text-[#ab3f00] font-bold text-xl">Sinh viên FPOLY trải nghiệm tực tế tại Mường Thanh Luxury</h2>
+                  <span class="text-[#000] inline-block text-base mr-[10px]">Với triết lý đào tạo "Thực học - Thực nghiệp", Cao đẳng FPT Polytechnic Đà Nẵng thường xuyên tổ chức cho sinh viên tham quan các đơn vị doanh nghiệp </span>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <footer>
+          <div class="bg-[#333366] h-14">
+            <h2 class="text-center text-xl text-[#fff] pt-[10px]">thuyph18059</h2>
+          </div>
+        </footer>
+
+  
       </div>
-      <h2 class="text-2xl	my-2 font-bold mx-2"><a href="" class="hover:text-green hover:ease-in-out duration-300">TIN
-          TỨC
-          HỌC TẬP</a></h2>
-      <div id="product" class="grid grid-cols-3 m-auto ">
-        <div class="text-center">
-          <img src="#" alt="">
-          <h3>a</h3>
-          <p></p>
-        </div>
-        <div class="text-center">
-          <img src="#" alt="">
-          <h3>a</h3>
-          <p></p>
-        </div>
-        <div class="text-center">
-          <img src="#" alt="">
-          <h3>a</h3>
-          <p></p>
-        </div>
-      </div>
-      <h2 class="text-2xl	my-2 font-bold mx-2"><a href="" class="hover:text-green hover:ease-in-out duration-300">HOẠT
-          ĐỘNG SINH VIÊN</a></h2>
-      <div id="productPost" class="grid grid-cols-3	">
-        <div class="text-center">
-          <img src="#" alt="">
-          <h3>a</h3>
-          <p></p>
-        </div>
-        <div class="text-center">
-          <img src="#" alt="">
-          <h3>a</h3>
-          <p></p>
-        </div>
-        <div class="text-center">
-          <img src="#" alt="">
-          <h3>a</h3>
-          <p></p>
-        </div>
-      </div>
-    </main>
-    <footer class="bg-black text-center text-white py-3">
-      <p  class="text-3xl">THUY-WE16303</p>
-    </footer>
-  </div>
+      <script type="module" src="/main.js"></script>
+    </body>
+  </html>
 </body>
 
 </html>
