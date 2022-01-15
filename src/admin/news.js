@@ -1,4 +1,4 @@
-import data from "../data";
+import data_2 from "../data_2";
 
 const news = {
     render() {
@@ -28,7 +28,7 @@ const news = {
             </tr>
           </thead>
           <tbody class="bg-white divide-y divide-gray-200">
-          ${data.map((post) => `
+          ${data_2.map((post) => `
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">
                 <div class="flex items-center">

@@ -3,9 +3,10 @@ const Nav = {
         return /* html */`
         <nav class="flex">
             <ul class="flex">
-                <li><a href="/" class="block py-3 px-2 text-white hover:underline">Home Page</a></li>
-                <li><a href="/about" class="block py-3 px-2 text-white hover:underline">About Page</a></li>
-                <li><a href="/product" class="block py-3 px-2 text-white hover:underline">Product Page</a></li>
+                <li><a href="/" class="block py-3 px-2 text-white hover:underline">Home </a></li>
+                <li><a href="/about" class="block py-3 px-2 text-white hover:underline">About </a></li>
+                <li><a href="/product" class="block py-3 px-2 text-white hover:underline">Product </a></li>
+                <li><a href="/dashboard" class="block py-3  px-2 text-white  hover:underline">Admin</a></li>
                 <li><a href="/signin" class="block py-3 ml-[2px] text-white  hover:underline">Đăng nhập</a></li>
             </ul>
             <div class="ml-80 ">

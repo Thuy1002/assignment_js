@@ -40,37 +40,7 @@ const data = [
         img: "http://placeimg.com/640/480/people",
         desc: "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
         id: "6",
-    },
-    {
-        image_2: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-        name: "Jane Cooper",
-        email: " jane.cooper@example.com",
-        title_2: "Regional Paradigm Technician",
-        title_3: "Optimization",
-        status: "Active",
-        role: "Admin",
 
     },
-    {
-        image_2: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-        name: "Jane Cooper",
-        email: " jane.cooper@example.com",
-        title_2: "Regional Paradigm Technician",
-        title_3: "Optimization",
-        status: "OptiActivemization",
-        role: "Admin",
-
-    },
-    {
-        image_2: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-        name: "Jane Cooper",
-        email: " jane.cooper@example.com",
-        title_2: "Regional Paradigm Technician",
-        title_3: "Optimization",
-        status: "Active",
-        role: "Admin",
-
-    },
-
 ];
 export default data;
